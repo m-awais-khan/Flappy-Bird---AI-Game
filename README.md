@@ -1,6 +1,10 @@
 
 # Flappy Bird NEAT AI
 
+<p align="center">
+  <img src="gameplay.gif" alt="Flappy Bird AI Gameplay" width="400"/>
+</p>
+
 The Flappy Bird NEAT AI project is a game that demonstrates a genetic algorithm (NEAT) applied to train a neural network to play the Flappy Bird game. This is a project for my 4th semester of BSCS.
 
 ## Table of Contents
@@ -30,6 +34,9 @@ To run the Flappy Bird NEAT AI project, follow these steps:
 
 1. Clone the repository or download the source code.
 2. Install the required dependencies using `pip`:
+   ```sh
+   pip install pygame-ce neat-python
+   ```
 3. Run the main script:
    ```sh
    python main.py
